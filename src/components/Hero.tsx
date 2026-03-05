@@ -60,10 +60,8 @@ const Hero = () => {
 
      {/* Right Image — slides in from right + subtle float */}
      <div className="hero-fade-right delay-300 w-full relative h-full px-4 rounded-[12px]">
-     
-
       <img
-       src="/bulb-cretive.jpg"
+       src="/bulb-creative.png"
        alt="Levantia Creative Work"
        className="hero-scale-in delay-200 h-full w-full object-cover rounded-[12px]"
       />
