@@ -1,8 +1,8 @@
 const features = [
  {
-  title: "Listen",
+  title: "Expert Design",
   description:
-   "Explore cutting-edge architectural designs that seamlessly blend functionality with aesthetics, tailored to your needs",
+   "Bespoke creative solutions tailored to your brand identity and architectural requirements.",
   icon: (
    <img
     src="/home/icons/listen.svg"
@@ -12,9 +12,9 @@ const features = [
   ),
  },
  {
-  title: "Strategies",
+  title: "Turnkey Solutions",
   description:
-   "Easily and securely spend, send, and manage your transactions-all in one place. Download the app on your",
+   " We manage everything from site surveys and production to final installation and maintenance.",
   icon: (
    <img
     src="/home/icons/strategy.svg"
@@ -24,9 +24,9 @@ const features = [
   ),
  },
  {
-  title: "Project Work",
+  title: "Project Analysis",
   description:
-   "Where our team of professionals harnesses advanced technology to streamline real estate transactions",
+   " Detailed planning and material selection to ensure longevity and aesthetic impact.",
   icon: (
    <img
     src="/home/icons/project.svg"
@@ -36,9 +36,9 @@ const features = [
   ),
  },
  {
-  title: "Launch",
+  title: "Advanced Tech",
   description:
-   "Discover cutting-edge architectural designs that blend functionality with aesthetics, tailored to your vision and needs.",
+   "Utilizing industry-leading large-format printers and precision cutting tools.",
   icon: (
    <img
     src="/home/icons/launch.svg"
@@ -48,9 +48,9 @@ const features = [
   ),
  },
  {
-  title: "Technology",
+  title: "High Reliability",
   description:
-   "Achieve outstanding results quickly with our high-efficiency approach, optimizing every step for peak.",
+   "Trusted by developers and interior designers across the Middle East for over a decade.",
   icon: (
    <img
     src="/home/icons/tech.svg"
@@ -60,9 +60,9 @@ const features = [
   ),
  },
  {
-  title: "High Efficiency",
+  title: "3M Certified",
   description:
-   "Maximize productivity with our high-efficiency solutions, delivering exceptional results in less time",
+   " As an approved converter, we guarantee the highest standards of material application and warranty.",
   icon: (
    <img
     src="/home/icons/effeciency.svg"
@@ -82,13 +82,13 @@ const FeaturesSection = () => {
      <h2 className="text-white text-[2.5rem] md:text-[3.5rem] lg:text-[4rem] font-medium leading-[1.15] max-w-2xl font-sans">
       Our main points and
       <br />
-      standout features are
+      standout features
      </h2>
      <p className="text-gray-400 text-sm md:text-base lg:text-[1.05rem] leading-relaxed max-w-2xl font-light">
-      Our key points and features include innovative designs, expert project
+      From certified 3M material conversion to bespoke signage engineering,
       <br className="hidden md:block" />
-      management, and sustainable practices tailored to your unique needs and
-      vision.
+      we combine advanced manufacturing technology with expert craftsmanship to
+      bring architectural visions to life.
      </p>
     </div>
 

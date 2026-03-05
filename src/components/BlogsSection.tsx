@@ -1,26 +1,29 @@
 const blogs = [
- {
-  id: 1,
-  tag: "Interior",
-  date: "12 Jan, 2024",
-  title: "Tips & advice for navigating the first time home",
-  // Placeholder image matching architecture vibe
-  image: "/home/blog1.png",
- },
- {
-  id: 2,
-  tag: "Out design",
-  date: "20 May, 2024",
-  title: "We understand that each real estate journey is unique",
-  image: "/home/blog2.png",
- },
- {
-  id: 3,
-  tag: "Modern",
-  date: "10 Sep, 2022",
-  title: "knowing you have a trusted partner dedicated",
-  image: "/home/blog3.png",
- },
+  {
+    id: 1,
+    tag: "3M Solutions",
+    date: "14 Feb, 2026",
+    title:
+      "The Future of Architectural Finishes: Why 3M Di-Noc is Leading the Market.",
+    // Focus: Architectural wrapping and surface transformation
+    image: "/home/blog1.png", 
+  },
+  {
+    id: 2,
+    tag: "Branding",
+    date: "28 Jan, 2026",
+    title: "How Environmental Branding Boosts Workplace Productivity.",
+    // Focus: Office interiors and corporate identity
+    image: "/home/blog2.png",
+  },
+  {
+    id: 3,
+    tag: "Sustainability",
+    date: "15 Dec, 2025",
+    title: "Trends in Sustainable Signage and Large Format Printing for 2026.",
+    // Focus: Eco-friendly materials and UV printing
+    image: "/home/blog3.png",
+  },
 ];
 
 const BlogsSection = () => {

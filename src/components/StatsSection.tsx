@@ -77,17 +77,16 @@ const StatsSection = () => {
 
     <div className="flex flex-col md:flex-row gap-6 md:gap-12 lg:w-[55%]">
      <p className="text-gray-600 leading-relaxed md:w-1/2">
-      We transform your ideas into stunning works of art, blending creativity
-      with precision to bring your vision to life. Trust us to craft exceptional
-      visual experiences
+      From corporate offices to luxury retail outlets, we provide turnkey
+      branding solutions that include conceptual design, high-quality printing,
+      and expert on-site installation.
      </p>
      <p className="text-gray-600 leading-relaxed md:w-1/2">
-      We transform your creative ideas into stunning works of art. With a blend
-      of innovation and craftsmanship, we bring your vision to life, ensuring
-      every detail is meticulously crafted to perfection. Whether it's a simple
-      concept or a complex design, our passion for excellence turns your
-      imagination into a masterpiece. Let's create something extraordinary
-      together
+      We bridge the gap between architectural vision and physical reality. Our
+      facility in Dubai is equipped with the latest technology to handle
+      large-scale production without compromising on detail. We are proud to be
+      an authorized partner for 3M, offering their complete range of
+      high-performance materials for architectural and industrial applications.
      </p>
     </div>
    </div>
@@ -102,7 +101,7 @@ const StatsSection = () => {
        <h3 className="text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-gray-900 mt-2 mb-10 flex items-center">
         <AnimatedCounter end={12} duration={2000} />+
        </h3>
-       <p className="text-gray-600 text-sm md:text-base">Running Project</p>
+       <p className="text-gray-600 text-sm md:text-base">Years in Business</p>
       </div>
 
       {/* Card 2 */}
@@ -110,7 +109,7 @@ const StatsSection = () => {
        <h3 className="text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-white mt-2 mb-10 flex items-center">
         <AnimatedCounter end={55} duration={2500} />+
        </h3>
-       <p className="text-gray-300 text-sm md:text-base">Complete project</p>
+       <p className="text-gray-300 text-sm md:text-base">Approved Products</p>
       </div>
      </div>
 
@@ -120,7 +119,9 @@ const StatsSection = () => {
        <h3 className="text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-gray-900 mt-2 mb-10 flex items-center">
         <AnimatedCounter end={6} duration={1800} />+
        </h3>
-       <p className="text-gray-600 text-sm md:text-base">world wide work</p>
+       <p className="text-gray-600 text-sm md:text-base">
+        Specialized Departments
+       </p>
       </div>
 
       {/* Card 4 */}
@@ -128,7 +129,9 @@ const StatsSection = () => {
        <h3 className="text-6xl md:text-7xl lg:text-[5.5rem] font-medium text-gray-900 mt-2 mb-10 flex items-center">
         <AnimatedCounter end={82} duration={3000} />+
        </h3>
-       <p className="text-gray-600 text-sm md:text-base">Active Members</p>
+       <p className="text-gray-600 text-sm md:text-base">
+        Premium Brand Partners
+       </p>
       </div>
      </div>
     </div>

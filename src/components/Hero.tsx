@@ -19,11 +19,11 @@ const Hero = () => {
        beautiful and guaranteed to ascend sales.
       </p>
       <Button
-       href="/about"
+       href="/about-us"
        className=" w-fit "
        bgColor="bg-[#141414]"
        textColor="text-[#FFFFFF]">
-       Learn More
+       Explore Our Services
       </Button>
      </div>
 

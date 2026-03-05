@@ -7,49 +7,66 @@ const Header = () => {
    <div className="px-4 md:px-10 lg:px-20 py-6 w-full mx-auto max-w-[1536px]">
     <div className="flex items-center justify-between">
      {/* Logo */}
-     <Link to="/" className="flex items-center gap-2 cursor-pointer">
-      <span className="text-[18px] md:text-[24px] font-[700] text-gray-900 tracking-tight">
+     <Link to="/" className="flex flex-col items-start gap-0 cursor-pointer">
+      <span className="text-[18px] md:text-[28px] font-[700] text-gray-900 tracking-tight">
        Levantia Advertising LLC
+      </span>
+      <span className="text-[12px] md:text-[16px]">
+       3M Approved Converter (ARCHITECTURAL PRODUCTS)
       </span>
      </Link>
 
      {/* Desktop Nav */}
-     <nav className="hidden md:flex items-center gap-8 font-medium text-gray-700">
+     <nav className="hidden md:flex text-[18px] items-center gap-8 font-medium text-gray-700">
       <Link to="/" className="hover:text-black transition-colors">
        Home
       </Link>
-      <Link to="/about" className="hover:text-black transition-colors">
+      <Link to="/about-us" className="hover:text-black transition-colors">
        About us
       </Link>
       <div className="relative group py-2">
-       <Link to="#" className="hover:text-black transition-colors">
+       <Link
+        to="#"
+        className="hover:text-black transition-colors flex items-center gap-1">
         Our Service
+        <svg
+         width="14"
+         height="14"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         strokeWidth="2.5"
+         strokeLinecap="round"
+         strokeLinejoin="round"
+         className="group-hover:rotate-180 transition-transform duration-200">
+         <path d="m6 9 6 6 6-6" />
+        </svg>
        </Link>
        {/* Dropdown */}
        <div className="absolute top-full left-0 w-[300px] bg-white shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 flex flex-col pt-2">
         <div className="bg-white border text-[15px] border-gray-100 shadow-sm flex flex-col">
          <Link
-          to="#"
+          to="/3m-film-wrapping"
           className="px-5 py-4 text-gray-900 border-b border-gray-200 hover:bg-gray-50 transition-colors last:border-b-0">
-          3M Film Wrapping (DI-NOC & FASARA)
+          3M Film Wrapping (DI-NOC &amp; FASARA)
          </Link>
          <Link
-          to="#"
+          to="/signage"
           className="px-5 py-4 text-gray-900 border-b border-gray-200 hover:bg-gray-50 transition-colors last:border-b-0">
-          Outdoor & Indoor Signage Production
+          Outdoor &amp; Indoor Signage Production
          </Link>
          <Link
-          to="#"
+          to="/acrylic-woodworks"
           className="px-5 py-4 text-gray-900 border-b border-gray-200 hover:bg-gray-50 transition-colors last:border-b-0">
-          Acrylic & Wood Works
+          Acrylic &amp; Wood Works
          </Link>
          <Link
-          to="#"
+          to="/company-profile"
           className="px-5 py-4 text-gray-900 border-b border-gray-200 hover:bg-gray-50 transition-colors last:border-b-0">
           Company Profile
          </Link>
          <Link
-          to="#"
+          to="/printing-services"
           className="px-5 py-4 text-gray-900 border-b border-gray-200 hover:bg-gray-50 transition-colors last:border-b-0">
           Printing Services
          </Link>
@@ -59,7 +76,7 @@ const Header = () => {
           2023 Gift Items Catalogue
          </Link>
          <Link
-          to="#"
+          to="/products"
           className="px-5 py-4 text-gray-900 border-b border-gray-200 hover:bg-gray-50 transition-colors last:border-b-0">
           View Products
          </Link>
@@ -69,14 +86,11 @@ const Header = () => {
       <Link to="/3m-catalogue" className="hover:text-black transition-colors">
        3M Catalogue
       </Link>
-      <Link to="/contact" className="hover:text-black transition-colors">
-       Contact
-      </Link>
      </nav>
 
      {/* CTA Button */}
      <div>
-      <Button href="#" className="hidden md:block">
+      <Button href="/contact" className="hidden md:block">
        Contact Us
       </Button>
 

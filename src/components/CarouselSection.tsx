@@ -1,39 +1,38 @@
 const CarouselSection = () => {
- const categories = ["Interior", "Design", "Plan & Project", "Architect"];
+ const categories = ["3M Solutions", "Signage", "Architectural Graphics", "Production"];
 
  const slides = [
   {
    id: 1,
-   title: "Cultural Complex Centre",
+   title: "Architectural Finishes",
    description:
-    "Located near Muscat main entrance, the Cultural Centre emerges from a unique landscape,...",
-   // Using similar dark modern office interior
+    "Transforming surfaces with 3M Di-Noc wood, marble, and metallic finishes. Minimal downtime, maximum aesthetic impact for hotels and offices.",
    image:
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200", // High-end office finish
   },
   {
    id: 2,
-   title: "Find Your Perfect Branding",
+   title: "Corporate & Retail Branding",
    description:
-    "Grown at high altitudes with stunning views of the Pacific Ocean, these beans undergo a meticulous process. They ar",
-   // Using similar warm living room interior
+    "Comprehensive interior and exterior signage solutions. From high-rise building wraps to precision-cut 3D illuminated logos.",
    image:
-    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1200",
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1200", // Bright professional space
   },
   {
    id: 3,
-   title: "Sustainable Architecture",
+   title: "Large Format Production",
    description:
-    "Integrating organic materials with modern technology to provide sustainable living spaces...",
+    "In-house production facility in Dubai featuring state-of-the-art printing and CNC routing for high-volume, precision advertising materials.",
    image:
-    "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=1200",
+    "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=1200", // Clean architectural detail
   },
   {
    id: 4,
-   title: "Luxurious Living Spaces",
+   title: "3M Approved Conversion",
    description:
-    "Experience the pinnacle of comfort and style with our carefully curated interior designs that speak volumes.",
-   image: "/home/luxury.png",
+    "As an authorized 3M converter, we provide certified installation for window films and graphics with full manufacturer warranty support.",
+   image:
+    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200", // Modern lobby/glass application
   },
  ];
 

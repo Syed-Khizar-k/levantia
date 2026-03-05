@@ -1,4 +1,5 @@
 import CtaSection from "../components/CtaSection";
+import InfiniteCarousel from "../components/InfiniteCarousel";
 
 const Catalogue = () => {
  return (
@@ -86,7 +87,7 @@ const Catalogue = () => {
      </iframe>
     </div>
    </section>
-
+   <InfiniteCarousel />
    {/* CTA Section */}
    <CtaSection />
   </main>
